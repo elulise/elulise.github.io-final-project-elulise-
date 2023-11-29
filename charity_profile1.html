@@ -1,0 +1,88 @@
+<!-- charity_profile.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="charity_profile.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Charity Profile Page</title>
+</head>
+
+<body class="background">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Img/CUNE Psych Club Logo.png" alt="Logo with pink brain and sprout" width="50" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="index.html">Home <span class="sr-only"></span></a>
+                    <a class="nav-item nav-link" href="charities.html">Charities</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-6 text-center">
+            <a target="_blank"
+                href="https://support.savethechildren.org/site/Donation2?df_id=1620&1620.donation=form1&monthly=true&cid=Paid_Search:Google_Paid:RD_GAF:Brand:123199&s_kwcid=AL!9048!3!614519097776!e!!g!!save%20the%20children&gad_source=1&gclid=CjwKCAiAgeeqBhBAEiwAoDDhn7bjqk6f7_9lRrdAQGADxd40wxANH3JT2Axn-61U6Iodg2N-3mWYsxoCYcUQAvD_BwE&gclsrc=aw.ds">
+                <img src="img/1.png" alt="Save the children Logo" width="50%" height="auto"">
+            </a>
+        </div>
+    </div>
+
+    <div class=" container-fluid my-5">
+                <div class="row text-center">
+                    <div class="col-sm-6">
+
+                        <h1 class="my-5">About Save The Children</h1>
+                        <div class="desc">The Save the Children Fund,[2] commonly known as Save the Children, is an
+                            international, non-government
+                            operated organization. It was founded in the UK in 1919, with the goal of helping improve
+                            the lives
+                            of children worldwide.
+                            The organization helps to raise money to improve children's lives by creating better
+                            educational
+                            opportunities, better
+                            health care, and improved economic opportunities.</div>
+
+
+                        <!-- Volunteer Now Button -->
+                        <a href="#volunteerForm" class="button-17 my-3" id="volunteerNowBtn">
+                            Volunteer Now
+                        </a>
+
+                        <!-- Content Container -->
+                        <div id="contentContainer"></div>
+
+                        <button onclick="animateElement()" class="button-17 my-3">
+                            Animate Image
+                        </button>
+
+                    </div>
+                    <div class="col-sm-6" id="animatedElement">
+                        <img id="saveTheChildrenLogo" src="Img/4.jpg" alt="save the children little girl" width="70%" height="auto">
+                    </div>
+                </div>
+
+
+
+        </div>
+
+        <script src="charity_profile.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
